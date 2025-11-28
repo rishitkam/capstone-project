@@ -28,7 +28,12 @@ The first purpose of the capstone project is to give a chance to revise all the 
 
 ## Overview
 
-[your overview goes here. My project does this that  etc]
+Basically I have created a personalised ai nutrition and meal analyser, You can share your personal information with it, like height,weight,gender, age , goals (weight gain, weight loss, muscle gain etc.), and it can do the following tasks.
+food recognition from images
+OCR for nutrition labels
+text-to-nutrition analysis
+tracks your calories for the day
+The main usp is that it doesnt just do all the taks but it keeps in mind the users goal constantly and adapts according to it, It can suggest whether the meal aligns with yout goals or not, it can suggest changes and basically personalise eveyrthing according to the users goals using llms.
 
 ## Reason for picking up this project
 
