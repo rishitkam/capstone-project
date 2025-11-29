@@ -42,9 +42,11 @@ This project lines up with everything we learned in this course. The core of the
 
 I plan to excecute these steps to complete my project.
 
-- [TODO] Step 1 involves blah blah
-- [TODO] Step 2 involves blah blah
-- [TODO] Step 3 involves blah blah
+- [TODO] Step 1 : Set up the Core infrastructure, which involves Project foundation with all dependencies, environment and Api config,creating data models for policy analysis
+- [TODO] Step 2 : Set up the document processing,including the text chunking system, vector store with FAISS, and pdf processing
+- [TODO] Step 3 : Set up the AI Engine which includes, LLM integration with structured output, Defining and compiling LangGraph workflow nodes
+- [TODO] Step 4 : Define the Main analyzer
+- [TODO] Step 5 : 
 - ...
 - [TODO] Step n involves blah blah
 
