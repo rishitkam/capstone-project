@@ -20,6 +20,7 @@ We also learned that Langsmith is a nice tool for debugging Langgraph codes.
 The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
 
 
+
 -------------------------
 
 # Project report Template
@@ -34,6 +35,8 @@ It’s built to be practical: not a legal opinion, just a fast, structured way t
 ## Reason for picking up this project
 
 I picked this project because it’s something that actually solves a real problem — nobody reads privacy policies, and most of them hide shady data collection or confusing wording. Instead of pretending to read 20 pages of legal text, this tool can instantly show the important parts, highlight risks, and tell you what’s going on in a simple way.
+
+This project lines up with everything we learned in this course. The core of the Privacy Policy Analyzer is about taking unstructured, messy legal text and turning it into clean, structured information which directly uses prompting, JSON structured outputs, and controlled generation. The policy text is chunked and embedded so we can run semantic search and retrieval, which covers RAG, embeddings, chunking, and retrieval concepts we studied. Each stage of the pipeline works like a node in a LangGraph-style workflow, passing state forward step by step, exactly like the “nodes, state, graph” idea from class. The analyzer also uses tool like components such as a “risk classifier,” “permissions extractor,” or “summary generator,”. We can store user privacy preferences (for example, how sensitive they are about location or camera access), which naturally demonstrates stateful memory. The debugging and tracing ideas from LangSmith also apply cleanly here because the pipeline is easy to inspect and track. Basically, every major concept — prompting, structured output, semantic search, embeddings, RAG, tool-calling, node-based workflow, state, memory, evaluation — fits neatly into this one project.
 
 ## Plan
 
