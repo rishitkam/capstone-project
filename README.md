@@ -24,20 +24,16 @@ The first purpose of the capstone project is to give a chance to revise all the 
 
 # Project report Template
 
-## Title: AI-Powered Personalized Nutrition & Meal Analyzer
+## Title: Privacy Policy Analyzer
 
 ## Overview
 
-Basically I have created a personalised ai nutrition and meal analyser, You can share your personal information with it, like height,weight,gender, age , goals (weight gain, weight loss, muscle gain etc.), and it can do the following tasks.
-food recognition from images
-OCR for nutrition labels
-text-to-nutrition analysis
-tracks your calories for the day
-The main usp is that it doesnt just do all the taks but it keeps in mind the users goal constantly and adapts according to it, It can suggest whether the meal aligns with yout goals or not, it can suggest changes and basically personalise eveyrthing according to the users goals using llms.
+This tool reads any privacy policy or terms-of-service text and instantly tells you the important stuff like what data the service collects, who they share it with, what permissions are risky, how long they keep data, and whether there are any obvious compliance or privacy-red-flag issues. You paste or upload a policy (PDF/text), and it returns a clean, easy-to-scan JSON report plus a plain-English summary and quick suggestions for users.
 
+It’s built to be practical: not a legal opinion, just a fast, structured way to understand the privacy tradeoffs so people don’t have to slog through pages of legalese.
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
+I picked this project because it’s something that actually solves a real problem — nobody reads privacy policies, and most of them hide shady data collection or confusing wording. Instead of pretending to read 20 pages of legal text, this tool can instantly show the important parts, highlight risks, and tell you what’s going on in a simple way.
 
 ## Plan
 
