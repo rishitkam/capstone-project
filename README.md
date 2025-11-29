@@ -48,7 +48,7 @@ I plan to excecute these steps to complete my project.
 - [TODO] Step 4 : Setup Visualising and monitoring by adding tracing through Langsmith/LangGraph
 - [TODO] Step 5 : Define the Main analyzer, which includes the core analyser and the result formatting system
 - [TODO] Step 6 : build the reputation system by adding a tavily integration tool and building an advanced/enhanced analyser.
-- [TODO] Step 7 : Setup an extrememly simple UI interface where user can upload the pdf to create a simple demonstration of the bot
+- [TODO] Step 7 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot
 
 
 ## Conclusion:
