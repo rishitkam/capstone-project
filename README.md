@@ -45,10 +45,11 @@ I plan to excecute these steps to complete my project.
 - [TODO] Step 1 : Set up the Core infrastructure, which involves Project foundation with all dependencies, environment and Api config,creating data models for policy analysis
 - [TODO] Step 2 : Set up the document processing,including the text chunking system, vector store with FAISS, and pdf processing
 - [TODO] Step 3 : Set up the AI Engine which includes, LLM integration with structured output, Defining and compiling LangGraph workflow nodes
-- [TODO] Step 4 : Define the Main analyzer
-- [TODO] Step 5 : 
-- ...
-- [TODO] Step n involves blah blah
+- [TODO] Step 4 : Setup Visualising and monitoring by adding tracing through Langsmith/LangGraph
+- [TODO] Step 5 : Define the Main analyzer
+- [TODO] Step 6 : adding the tavily integration to build the reputation system
+- [TODO] Step 7 : Setup an extrememly simple UI interface where user can upload the pdf to create a simple demonstration of the bot
+
 
 ## Conclusion:
 
