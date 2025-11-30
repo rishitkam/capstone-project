@@ -42,13 +42,16 @@ This project lines up with everything we learned in this course. The core of the
 
 I plan to excecute these steps to complete my project.
 
-- [TODO] Step 1 : Set up the Core infrastructure, which involves Project foundation with all dependencies, environment and Api config,creating data models for policy analysis
-- [TODO] Step 2 : Set up the document processing,including the text chunking system, vector store with FAISS, and pdf processing
-- [TODO] Step 3 : Set up the AI Engine which includes, LLM integration with structured output, Defining and compiling LangGraph workflow nodes
-- [TODO] Step 4 : Setup Visualising and monitoring by adding tracing through Langsmith/LangGraph
-- [TODO] Step 5 : Define the Main analyzer, which includes the core analyser and the result formatting system
-- [TODO] Step 6 : build the reputation system by adding a tavily integration tool and building an advanced/enhanced analyser.
-- [TODO] Step 7 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot
+- [DONE] Step 1 : Set up the Core infrastructure, which involves Project foundation with all dependencies, environment and Api config.
+- [TODO] Step 2 : Setup Visualising and monitoring by adding tracing through Langsmith/LangGraph
+- [TODO] Step 3 : Creating data models for policy analysis
+- [TODO] Step 4 : Set up the document processing,including the text chunking system, vector store with FAISS, and pdf processing
+- [TODO] Step 5 : Set up RAG & Vector Search, enable the AI to search the document for specific clauses.
+- [TODO] Step 6 : Set up the AI Engine which includes, LLM integration with structured output, and prompt templates
+- [TODO] Step 7 : build the reputation system by adding a tavily integration tool and building an advanced/enhanced analyser.
+- [TODO] Step 8 : Define the langgraph nodes, and compile them to make the langgraph and display the graph strucute using mermaid.
+- [TODO] Step 9 : Define the Main analyzer, which includes the core analyser and the result formatting system
+- [TODO] Step 10 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot and host it
 
 
 ## Conclusion:
