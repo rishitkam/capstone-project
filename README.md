@@ -54,6 +54,8 @@ I plan to excecute these steps to complete my project.
 - [TODO] Step 8 : Define the langgraph nodes, and compile them to make the langgraph and display the graph strucute using mermaid.
 - [TODO] Step 9 : Define the Main analyzer, which includes the core analyser and the result formatting system
 - [TODO] Step 10 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot and host it
+- Basic Bot work is finished here, Now I will build on top of it to create an enriched 'premium' version of it
+- [TODO] Step 11 :
 
 
 ## Conclusion:
