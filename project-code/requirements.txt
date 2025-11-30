@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langgraph
+pydantic
+pypdf
+python-dotenv
+tiktoken
+faiss-cpu
+langsmith
+tavily-python
+gradio
