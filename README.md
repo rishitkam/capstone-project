@@ -51,7 +51,7 @@ I plan to excecute these steps to complete my project.
 - [DONE] Step 5 : Set up RAG & Vector Search, enable the AI to search the document for specific clauses.
 - [DONE] Step 6 : Set up the AI Engine which includes, LLM integration with structured output, and prompt templates
 - [DONE] Step 7 : build the reputation system's base by adding a tavily integration web search tool.
-- [TODO] Step 8 : Define the langgraph nodes, and compile them to make the langgraph and display the graph strucute using mermaid.
+- [DONE] Step 8 : Define the langgraph nodes, and compile them to make the langgraph and display the graph strucute using mermaid.
 - [TODO] Step 9 : Define the Main analyzer, which includes the core analyser and the result formatting system
 - [TODO] Step 10 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot and host it
 - Basic Bot work is finished here, Now I will build on top of it to create an enriched 'premium' version of it, i will create a copy of this simple bot's jupyter notebook and do the following steps in it:
