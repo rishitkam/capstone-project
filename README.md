@@ -61,7 +61,7 @@ I plan to excecute these steps to complete my project.
 - [DONE] Step 14 : Define the new nodes, with refined prompts, and AI experts(in a FanOut/FanIn config) and turn them into a coordinated team where they operate simultaneously within a structured, state-aware architecture
 - [DONE] Step 15 : Setup the memory and context logic (to save states and msges)
 - [DONE] Step 16 : Update the main PrivacyPolicyAnalyzer class to generate unique thread_ids for every user and handle the Hybrid (RAG + Web) search logic.
-- [TODO] Step 17 : Setup the new chatbot window, where the user can have back and forth conversation with our bot related to the policies etc.
+- [DONE] Step 17 : Setup the new chatbot window, where the user can have back and forth conversation with our bot related to the policies etc.
 
 
 ## Conclusion:
