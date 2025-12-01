@@ -39,6 +39,17 @@ I picked this project because it’s something that actually solves a real probl
 
 This project lines up perfectly with everything we learned in this course. I used advanced prompt engineering by giving each agent a dedicated persona (Data Scout, Risk Officer, Compliance Lawyer, and Reputation Researcher), structured output through Pydantic models, and full RAG with embeddings + semantic search to let the model work directly with the PDF. I also used tool calling for the live reputation checks, and LangGraph to build a proper multi-agent workflow with nodes, edges, shared state, and checkpointing. All four agents run in parallel using a map-reduce pattern, and the whole system supports persistent memory so users can chat with the document over time. Basically, the project implements every major technique we covered just combined into one nice system with a nice ui website, and because the workflow is broken into clear nodes, it's easy to debug and trace step-by-step using LangSmith inspection and evaluation exactly like we did for class.
 
+## Video Summary Link: 
+
+Make a short -  3-5 min video of yourself, put it on youtube/googledrive, and put its link in your README.md.
+
+- you can use this free tool for recording https://screenrec.com/
+- Video format should be like this:
+- your face should be visible
+- State the overall job of your agent: what inputs it takes, and what output it gives.
+- Very quickly, explain how your agent acts on the input and spits out the output. 
+- show an example run of the agent in the video
+
 
 ## Plan
 
