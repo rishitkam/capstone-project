@@ -56,7 +56,7 @@ I plan to excecute these steps to complete my project.
 - [DONE] Step 10 : Setup a UI interface, using gradio,  where user can upload the pdf/ copy paste the text to demonstrate the bot and host it
 - Basic Bot work is finished here, Now I will build on top of it to create an enriched 'premium' version of it, i will create a copy of this simple bot's jupyter notebook and do the following steps in it:
 - [DONE] Step 11 : Import all additional libraries
-- [TODO] Step 12 : Define the new and upgraded data models for policy analysis, with our new special agents
+- [DONE] Step 12 : Define the new and upgraded data models for policy analysis, with our new special agents
 - [TODO] Step 13 : Initialize Global Tools (VectorStore & Tavily) & LLM beforehand so agents can use them.
 - [TODO] Step 14 : Define the new nodes, with refined prompts, and AI experts(in a FanOut/FanIn config) and turn them into a coordinated team where they operate simultaneously within a structured, state-aware architecture
 - [TODO] Step 15 : Setup the memory and context logic (to save states and msges)
