@@ -66,7 +66,18 @@ I plan to excecute these steps to complete my project.
 
 ## Conclusion:
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
+
+Initial Plans : 
+
+I had planned to make an efficient, straight forward, comprehensive bot, which reads lenghty privacy policy/terms&conditions files for you and gives you a nicely formatted and short report of what all of your data will be supplied to the company, how it will be collected and what it would be used for (basically what trade-offs of your private data you would have to make), it would also tell how that company usually is when it comes to user privacy (their reputation), how users can protect themselves, and also include a chat window where users can talk with the llm regarding these topics. I planned to make a complete agent which looks out for your data for you, I also planned to permanently host this on a aesthetic looking website where there would be 2 input options, either to upload any document/photo or to copy-paste text. 
+
+Plans Achieved/Not Achieved : 
+
+I have achieved the report generation part (basically the llm/langgraph part) pretty satisfactorily,I am also satisfied with the chat section/bot, and also the website UI, I am not satisfied with the File format support, and I am not fully satisfied with the duration of website hosting.
+
+Reasons for the satisfaction/satisfaction :
+
+The report generated are genuinely very nice, it gives the user all that they could need to know in a simple, aesthetic format without any jargons, and it also doesnt take much time as I had parallelised different sub-components of the report using different llm personas for different tasks using LangGraph, it does its job pretty well. The chat section bot can answer the related questions and also any follow up questions really well and can use both rag or the web search tool to answer the user queries, it works exactly as expected. I am not satisfied with the file support, Right now this bot can only take in pdfs and copy-pasted txt, I wanted it to be able to take pictures,word files etc also as input.The website design is nice, it looks pretty simple,neat and aesthetic yet still simple to understand and use, it came out perfectly as I had expected. I wanted to host the website permanently, though right now it just stays hosted for only very short periods like around 30-mins of running the code, but when its hosted, it works flawlessly
 
 ----------
 
