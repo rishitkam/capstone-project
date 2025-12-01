@@ -79,6 +79,8 @@ Reasons for the satisfaction/satisfaction :
 
 The report generated are genuinely very nice, it gives the user all that they could need to know in a simple, aesthetic format without any jargons, and it also doesnt take much time as I had parallelised different sub-components of the report using different llm personas for different tasks using LangGraph, it does its job pretty well. The chat section bot can answer the related questions and also any follow up questions really well and can use both rag or the web search tool to answer the user queries, it works exactly as expected. I am not satisfied with the file support, Right now this bot can only take in pdfs and copy-pasted txt, I wanted it to be able to take pictures,word files etc also as input.The website design is nice, it looks pretty simple,neat and aesthetic yet still simple to understand and use, it came out perfectly as I had expected. I wanted to host the website permanently, though right now it just stays hosted for only very short periods like around 30-mins of running the code, but when its hosted, it works flawlessly
 
+Note : I have kept in my repository two versions of this bot, capstone-code-advanced is the FINAL version which contains all the features I mentioned here, I have also kept an older/simpler version of this same bot without some of these features which I mentioned, the older version is capstone-code, the Idea was that if I ever deploy this, the advanced one would be the premium/pro version and the simple one would be the free to use version. the full/final version capstone-code-advanced was made on top of the capstone-code by copying it and then working on it further.
+
 ----------
 
 # Added instructions:
