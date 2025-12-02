@@ -85,7 +85,15 @@ The report generated are genuinely very nice, it gives the user all that they co
 
 Note : I have kept in my repository two versions of this bot, capstone-code-advanced is the FINAL version which contains all the features I mentioned here, I have also kept an older/simpler version of this same bot without some of these features which I mentioned, the older version is capstone-code, the Idea was that if I ever deploy this, the advanced one would be the premium/pro version and the simple one would be the free to use version. the full/final version capstone-code-advanced was made on top of the capstone-code by copying it and then working on it further.
 
-----------
+Landing page : 
+
+---------![landingpage](https://github.com/user-attachments/assets/935b296f-6244-4d8a-a620-e2f582e054f0)
+-
+Sample output with a google privacy policy pdf : 
+![sampleoutput1](https://github.com/user-attachments/assets/e8f76e8b-4b60-4380-bfe5-7a3deb92a9ee)
+
+![sampleoutput2](https://github.com/user-attachments/assets/92f0f667-7f0c-4f65-bbb1-353b70d949e4)
+
 
 # Added instructions:
 
