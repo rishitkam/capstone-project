@@ -31,7 +31,7 @@ The first purpose of the capstone project is to give a chance to revise all the 
 
 This tool reads any privacy policy or terms of service text and instantly tells you the important stuff like what data the service collects, who they share it with, what permissions are risky, how long they keep data, and whether there are any obvious compliance or privacy red flag issues. You paste or upload a policy (PDF/text), and it returns a clean,  report plus a plain English summary and quick suggestions for users, along with a summary of the said company's reputation with previous cases of data breaches/respect of user data. on top of the report it gives a one word summary like high risk, low risk etc. It’s basically a practical, fast, and structured way to understand the privacy tradeoffs so people don’t have to slog through pages of legalese. This was the basic idea, 
 now I have made a more enriched version of this bot, which uses a multi-agent set up with 4 agents(Data Scout, Risk Officer, Compliance Lawyer, and Reputation Researcher), each to perform different tasks parallelly, (which makes the process quicker) and also I have given users a chat space where user can ask the llm follow up questions on the report and the llm can use both web search tool, or the input context to answer the questions,and it also has a memory so it remembers the conversations,it works like any other professional chatbot all on a nice, aesthetic looking website.
-I did keep the simple old versions of this same bot which only gives a simple summary/suggestion as mentioned in the first para, I have tried to make them like a paid and non-paid version of the same thing. The enriched version is built on top of the first bot.
+I did keep the simple old version of this same bot which only gives a simple summary/suggestion as mentioned in the first para, I have tried to make them like a paid and non-paid version of the same thing. The enriched version is built on top of the first bot.
 
 ## Reason for picking up this project
 
@@ -85,7 +85,7 @@ The report generated are genuinely very nice, it gives the user all that they co
 
 Note : I have kept in my repository two versions of this bot, capstone-code-advanced is the FINAL version which contains all the features I mentioned here, I have also kept an older/simpler version of this same bot without some of these features which I mentioned, the older version is capstone-code, the Idea was that if I ever deploy this, the advanced one would be the premium/pro version and the simple one would be the free to use version. the full/final version capstone-code-advanced was made on top of the capstone-code by copying it and then working on it further.
 
-Landing page : 
+Website UI, Landing page : 
 
 ---------![landingpage](https://github.com/user-attachments/assets/935b296f-6244-4d8a-a620-e2f582e054f0)
 -
