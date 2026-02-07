@@ -1,21 +1,6 @@
-Template for creating and submitting MAT496 capstone project.
 
-# Overview of MAT496
 
-In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
-
-- Prompting
-- Structured Output 
-- Semantic Search
-- Retreaval Augmented Generation (RAG)
-- Tool calling LLMs & MCP
-- Langgraph: State, Nodes, Graph
-
-We also learned that Langsmith is a nice tool for debugging Langgraph codes.
-
-------
-
-# Capstone Project objective
+# Project objective
 
 The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
 
@@ -23,9 +8,9 @@ The first purpose of the capstone project is to give a chance to revise all the 
 
 -------------------------
 
-# Project report Template
 
-## Title: Privacy Policy Analyzer
+
+## Privacy Policy Analyzer
 
 ## Overview
 
@@ -37,7 +22,7 @@ I did keep the simple old version of this same bot which only gives a simple sum
 
 I picked this project because it’s something that actually solves a real problem nobody reads privacy policies (I personally have honestly never read one, I just click yes), and most of them hide shady data collection or confusing wording. Instead of pretending to read 20 pages of legal text, this tool can instantly show the important parts, highlight risks, and tell you what’s going on in a simple way.
 
-This project lines up perfectly with everything we learned in this course. I used advanced prompt engineering by giving each agent a dedicated persona (Data Scout, Risk Officer, Compliance Lawyer, and Reputation Researcher), structured output through Pydantic models, and full RAG with embeddings + semantic search to let the model work directly with the PDF. I also used tool calling for the live reputation checks, and LangGraph to build a proper multi-agent workflow with nodes, edges, shared state, and checkpointing. All four agents run in parallel using a map-reduce pattern, and the whole system supports persistent memory so users can chat with the document over time. Basically, the project implements every major technique we covered just combined into one nice system with a nice ui website, and because the workflow is broken into clear nodes, it's easy to debug and trace step-by-step using LangSmith inspection and evaluation exactly like we did for class.
+This project lines up perfectly with everything I have learned till now about using LangSmith and LangGraph. I used advanced prompt engineering by giving each agent a dedicated persona (Data Scout, Risk Officer, Compliance Lawyer, and Reputation Researcher), structured output through Pydantic models, and full RAG with embeddings + semantic search to let the model work directly with the PDF. I also used tool calling for the live reputation checks, and LangGraph to build a proper multi-agent workflow with nodes, edges, shared state, and checkpointing. All four agents run in parallel using a map-reduce pattern, and the whole system supports persistent memory so users can chat with the document over time. Basically, the project implements every major technique we covered just combined into one nice system with a nice ui website, and because the workflow is broken into clear nodes, it's easy to debug and trace step-by-step using LangSmith inspection and evaluation exactly like we did for class.
 
 ## Video Summary Link: 
 
@@ -95,22 +80,4 @@ Sample output with a google privacy policy pdf :
 ![sampleoutput2](https://github.com/user-attachments/assets/92f0f667-7f0c-4f65-bbb1-353b70d949e4)
 
 
-# Added instructions:
 
-- This is a `solo assignment`. Each of you will work alone. You are free to talk, discuss with chatgpt, but you are responsible for what you submit. Some students may be called for viva. You should be able to each and every line of work submitted by you.
-
-- `commit` History maintenance.
-  - Fork this respository and build on top of that.
-  - For every step in your plan, there has to be a commit.
-  - Change [TODO] to [DONE] in the plan, before you commit after that step. 
-  - The commit history should show decent amount of work spread into minimum two dates. 
-  - **All the commits done in one day will be rejected**. Even if you are capable of doing the whole thing in one day, refine it in two days.  
- 
- - Deadline: Nov 30, Sunday 11:59 pm
-
-
-# Grading: total 25 marks
-
-- Coverage of most of topics in this class: 20
-- Creativity: 5
-  
